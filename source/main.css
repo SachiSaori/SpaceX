@@ -1,0 +1,84 @@
+@import "css/header.css";
+@import "css/mainsection.css";
+@import "css/features.css";
+@import "css/footer.css";
+@import "css/vidbg.css";
+@import "css/aos.css";
+
+@media (max-width: 960px) {
+  .rocket {
+    max-width: 230px;
+  }
+
+  .table-column {
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .header .logo {
+    margin-bottom: 20px;
+  }
+
+  .header .main-nav{
+    margin-bottom: 20px;
+  }
+
+  .rocket {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  .rocket{
+    position: static;
+  }
+
+  .table {
+    margin-bottom: 0;
+  }
+
+  .table-column {
+    font-size: 12px;
+    width: 150px;
+  }
+
+  .footer-nav .list {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-nav .item {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .main {
+    padding-top: 50px;
+  }
+
+  .features {
+    padding-top: 0;
+  }
+}
+
+body{
+  background: #010001;
+  margin: 0;
+  padding-top: 53px;
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+}

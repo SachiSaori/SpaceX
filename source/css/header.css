@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  max-width: 1231px;
+  width:90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+/* nav-bar */
+.list{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.item-link{
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.secondary-nav .item-link {
+  color: #808080;
+}
